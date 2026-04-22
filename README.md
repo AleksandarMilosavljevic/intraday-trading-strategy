@@ -3,7 +3,7 @@ This repository contains a Python implementation of an intraday momentum strateg
 
 The implementation includes the integration of trailing stops that are anchored to the volume weighted average price and the use of dynamic position sizing. These additions are intended to provide a  robust defense against intraday volatility and to enhance the overall stability of the strategy. By adjusting exposure based on real time market conditions and technical anchors, the model seeks to preserve capital while maximizing the capture of trending price action.
 
-The general workflow is as follows: high frequency historical data is sourced through the Alpaca API to provide a reliable basis for analysis. This data is then utilized within a custom backtesting framework that incorporates realistic market frictions such as commissions and slippage to give a realistic view of the strategy's potential in a live market.
+High frequency historical data is sourced through the Alpaca API to provide a reliable basis for analysis. This data is then utilized within a custom backtesting framework that incorporates realistic market frictions such as commissions and slippage to give a realistic view of the strategy's potential in a live market.
 
 
 ### Reference
